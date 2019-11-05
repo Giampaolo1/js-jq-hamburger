@@ -4,8 +4,14 @@
 // La soluzione Base, concerne il fatto di non toccare html e css del repo di partenza
 // ma fare quello che dobbiamo seguendo quindi la logica implementata da chi ha fatto quell’intefaccia.
 
-$(".header-right").hide();
-$(".hamburger-menu").show();
+// $(".header-right").hide();
+// $(".hamburger-menu").show();
+
+$(".fas.fa-bars").click(function() {
+  $(".hamburger-menu").show();
+  });
+
+// $(".hamburger-menu").show();
 
 
 
