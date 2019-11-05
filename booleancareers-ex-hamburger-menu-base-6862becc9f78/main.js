@@ -4,7 +4,10 @@
 // La soluzione Base, concerne il fatto di non toccare html e css del repo di partenza
 // ma fare quello che dobbiamo seguendo quindi la logica implementata da chi ha fatto quell’intefaccia.
 
-$("div").header-right()
+$(".header-right").hide();
+$(".hamburger-menu").show();
+
+
 
 
 // ● $(‘selector’).addClass(‘nomeclasse’): aggiunge la classe “nomeclasse” all’elemento selezionato
